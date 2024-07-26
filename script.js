@@ -44,7 +44,7 @@ btnRoll.addEventListener('click', function() {
         const dice = Math.floor(Math.random() * 6) + 1;
 
         // Display random image
-        diceE1.src = `/images/dice-${dice}.png`;
+        diceE1.src = `./images/dice-${dice}.png`;
 
         // Check for rolled player 1
         if (dice !== 1) {
